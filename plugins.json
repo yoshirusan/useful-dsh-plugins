@@ -1,0 +1,124 @@
+{
+  "$comment": "Starter kit source of truth. `node scripts/sync.mjs` resolves every entry against the live plugin index and writes data/verified.json, CATALOG.md and the table in README.md. Edit this file, not the generated output.",
+  "schema": 1,
+  "indexUrl": "https://cdn.jsdelivr.net/npm/dsh-plugin-catalog/index.json",
+  "catalogPerCategory": 40,
+  "plugins": [
+    {
+      "name": "dsh-composer-expand",
+      "category": "ui",
+      "why": "Grows the composer into a tall 70vh writing view for long prompts."
+    },
+    {
+      "name": "dsh-md-studio",
+      "category": "docs",
+      "why": "Offline Markdown preview in the right sidebar with Mermaid, KaTeX and GFM tables."
+    },
+    {
+      "name": "dsh-preview-image",
+      "category": "ui",
+      "why": "Real zoom, pan, rotate and fullscreen for images, in the preview panel and lightbox."
+    },
+    {
+      "name": "media-preview",
+      "category": "ui",
+      "why": "Turns local audio and video paths into inline playable players in the chat."
+    },
+    {
+      "name": "dsh-artifact-preview",
+      "category": "ui",
+      "why": "Adds a produced-files card row plus a resizable split preview for workspace artifacts."
+    },
+    {
+      "name": "dsh-database-preview",
+      "category": "tools",
+      "why": "Read-only browsing of SQLite files and MySQL, Postgres and SQL Server connections."
+    },
+    {
+      "name": "dsh-session-kanban",
+      "category": "ui",
+      "why": "Sidebar board showing every session's current work, todos and progress."
+    },
+    {
+      "name": "dsh-session-export",
+      "category": "session",
+      "why": "Writes styled HTML, Markdown or JSON transcripts with diffs and a turn timeline."
+    },
+    {
+      "name": "dsh-notification",
+      "category": "notify",
+      "why": "Native desktop and webhook alerts when a turn ends, errors or waits for approval."
+    },
+    {
+      "name": "dsh-desktop-notifications",
+      "category": "notify",
+      "why": "Windows toast notifications that carry the conversation name."
+    },
+    {
+      "name": "@faith1688/dsh-usage-meter-harness",
+      "category": "usage",
+      "why": "Balance plus a per-turn, per-session and per-model cost ledger."
+    },
+    {
+      "name": "dsh-token-ledger-pro",
+      "category": "usage",
+      "why": "Prices every request against a built-in catalog of 136 models across 16 providers."
+    },
+    {
+      "name": "@restregular/dsh-memory",
+      "category": "memory",
+      "why": "Local JSONL memory with per-scope dedup and five memory tools.",
+      "conflictWith": "@hr98w/dsh-memory"
+    },
+    {
+      "name": "@hr98w/dsh-memory",
+      "category": "memory",
+      "why": "Leaner auto-memory and session consolidation modelled on Claude Code and Codex.",
+      "conflictWith": "@restregular/dsh-memory"
+    },
+    {
+      "name": "dsh-git-changes",
+      "category": "git",
+      "why": "Right-sidebar review panel with inline and side-by-side diffs, stage, commit, push.",
+      "conflictWith": "dsh-git-management"
+    },
+    {
+      "name": "dsh-git-management",
+      "category": "git",
+      "why": "Fuller git panel: commit graph, worktrees, branches and pull requests.",
+      "conflictWith": "dsh-git-changes"
+    },
+    {
+      "name": "dsh-git-badge",
+      "category": "git",
+      "why": "Git state badges on sidebar workspace rows and a composer chip."
+    },
+    {
+      "name": "@goodandready/dsh-shadow-auditor",
+      "category": "security",
+      "why": "Background scan of agent output for leaked secrets, plus command safety checks."
+    },
+    {
+      "name": "dsh-ears",
+      "category": "voice",
+      "why": "Microphone button that turns speech into a draft, with pluggable speech engines.",
+      "conflictWith": "dsh-voice-mode"
+    },
+    {
+      "name": "dsh-voice-mode",
+      "category": "voice",
+      "why": "Full-duplex voice mode and hold-to-talk dictation.",
+      "conflictWith": "dsh-ears"
+    },
+    {
+      "name": "dsh-skill-hub",
+      "category": "skill",
+      "why": "Browse, search, toggle, inspect and scaffold local skills from inside the GUI."
+    },
+    {
+      "name": "dsh-remote-mobile",
+      "category": "remote",
+      "why": "Tailscale or LAN access with QR pairing, RSA encryption and brute-force defense."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+name: sync
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Weekly, Monday 05:17 UTC — refresh versions, repo health and the catalog.
+    - cron: '17 5 * * 1'
+  pull_request:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  # Scheduled and manual runs refresh the generated files and commit them.
+  refresh:
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Sync against the live index
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/sync.mjs
+      - name: Commit refreshed data
+        run: |
+          if git diff --quiet; then
+            echo "Nothing changed."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "chore: refresh catalog and verified versions"
+          git push
+
+  # Pull requests must leave the repository consistent with plugins.json.
+  verify:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Sync against the live index
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/sync.mjs
+      - name: Ignore upstream churn, keep our own files honest
+        run: git checkout -- CATALOG.md data/catalog.json 2>/dev/null || true
+      - name: Fail if a pick is missing, archived, or the derived files are stale
+        run: |
+          git diff --exit-code || {
+            echo "::error::Run 'npm run sync' and commit the result."
+            exit 1
+          }

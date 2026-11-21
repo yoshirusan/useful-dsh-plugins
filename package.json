@@ -1,0 +1,14 @@
+{
+  "name": "useful-dsh-plugins",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A short, verified starter kit of plugins for DeepSeek Harness (dsh), plus a browseable catalog.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "sync": "node scripts/sync.mjs",
+    "sync:offline": "node scripts/sync.mjs --offline"
+  }
+}

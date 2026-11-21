@@ -1,0 +1,666 @@
+{
+  "generatedAt": "2026-11-21T05:00:41.339Z",
+  "githubChecked": true,
+  "plugins": [
+    {
+      "name": "dsh-composer-expand",
+      "category": "ui",
+      "status": "ok",
+      "engines": "any",
+      "published": "2026-09-05",
+      "installTarget": "dsh-composer-expand@0.1.4",
+      "entry": {
+        "why": "Grows the composer into a tall 70vh writing view for long prompts.",
+        "conflictWith": null,
+        "repository": "https://github.com/13071301808/dsh-composer-expand",
+        "directory": null,
+        "homepage": "https://awesome-dsh-plugin.com/p/13071301808/dsh-composer-expand/",
+        "description": "Composer expand/collapse toggle for the Web UI: a ⬆/⬇ button in the composer tool row grows the input to a tall 70vh writing view for long drafts."
+      },
+      "manifest": {
+        "version": "0.1.4",
+        "license": "MIT",
+        "repository": "git+https://github.com/13071301808/dsh-composer-expand.git",
+        "declaresBundle": true,
+        "installScripts": [],
+        "error": null
+      },
+      "repo": {
+        "stars": 6,
+        "pushedAt": "2026-10-16",
+        "archived": false,
+        "error": null
+      }
+    },
+    {
+      "name": "dsh-md-studio",
+      "category": "docs",
+      "status": "ok",
+      "engines": ">=0.2.0-rc.2 <0.3.0-0",
+      "published": "2026-11-18",
+      "installTarget": "dsh-md-studio@1.3.9",
+      "entry": {
+        "why": "Offline Markdown preview in the right sidebar with Mermaid, KaTeX and GFM tables.",
+        "conflictWith": null,
+        "repository": "https://github.com/BioAIEvolu/dsh-md-studio",
+        "directory": null,
+        "homepage": "https://awesome-dsh-plugin.com/p/BioAIEvolu/dsh-md-studio/",
+        "description": "Native right-sidebar Markdown preview with Mermaid diagrams, KaTeX math, GFM tables and syntax highlighting — rendering engine bundled, fully offline."
+      },
+      "manifest": {
+        "version": "1.3.9",
+        "license": "MIT",
+        "repository": "git+https://github.com/BioAIEvolu/dsh-md-studio.git",
+        "declaresBundle": true,
+        "installScripts": [],
+        "error": null
+      },
+      "repo": {
+        "stars": 6,
+        "pushedAt": "2026-11-21",
+        "archived": false,
+        "error": null
+      }
+    },
+    {
+      "name": "dsh-preview-image",
+      "category": "ui",
+      "status": "ok",
+      "engines": "any",
+      "published": "2026-11-16",
+      "installTarget": "dsh-preview-image@0.1.1",
+      "entry": {
+        "why": "Real zoom, pan, rotate and fullscreen for images, in the preview panel and lightbox.",
+        "conflictWith": null,
+        "repository": "https://github.com/VFVrPQ/dsh-preview-image",
+        "directory": null,
+        "homepage": "https://awesome-dsh-plugin.com/p/VFVrPQ/dsh-preview-image/",
+        "description": "Image preview with real zoom, pan, rotation and full screen in the right-Sidebar document preview and the conversation lightbox."
+      },
+      "manifest": {
+        "version": "0.1.1",
+        "license": "MIT",
+        "repository": "git+https://github.com/VFVrPQ/dsh-preview-image.git",
+        "declaresBundle": true,
+        "installScripts": [],
+        "error": null
+      },
+      "repo": {
+        "stars": 0,
+        "pushedAt": "2026-11-18",
+        "archived": false,
+        "error": null
+      }
+    },
+    {
+      "name": "media-preview",
+      "category": "ui",
+      "status": "ok",
+      "engines": "any",
+      "published": "2026-09-21",
+      "installTarget": "media-preview@0.1.3",
+      "entry": {
+        "why": "Turns local audio and video paths into inline playable players in the chat.",
+        "conflictWith": null,
+        "repository": "https://github.com/xiaokaizhou/dsh-media-preview",
+        "directory": null,
+        "homepage": "https://awesome-dsh-plugin.com/p/xiaokaizhou/dsh-media-preview/",
+        "description": "Renders local audio/video paths as inline, playable previews in DSH chat: replaces paths with <audio>/<video> players backed by same-origin…"
+      },
+      "manifest": {
+        "version": "0.1.3",
+        "license": "MIT",
+        "repository": "git+https://github.com/xiaokaizhou/dsh-media-preview.git",
+        "declaresBundle": true,
+        "installScripts": [],
+        "error": null
+      },
+      "repo": {
+        "stars": 0,
+        "pushedAt": "2026-09-21",
+        "archived": false,
+        "error": null
+      }
+    },
+    {
+      "name": "dsh-artifact-preview",
+      "category": "ui",
+      "status": "ok",
+      "engines": "any",
+      "published": "2026-08-18",
+      "installTarget": "dsh-artifact-preview@0.1.2",
+      "entry": {
+        "why": "Adds a produced-files card row plus a resizable split preview for workspace artifacts.",
+        "conflictWith": null,
+        "repository": "https://github.com/nirvanaslash/dsh-artifact-preview",
+        "directory": null,
+        "homepage": "https://awesome-dsh-plugin.com/p/nirvanaslash/dsh-artifact-preview/",
+        "description": "Adds a produced-files card row to the chat and a resizable split-screen preview panel for workspace artifacts (Markdown, source code, CSV, JSON, images, HTML),…"
+      },
+      "manifest": {
+        "version": "0.1.2",
+        "license": "MIT",
+        "repository": "git+https://github.com/nirvanaslash/dsh-artifact-preview.git",
+        "declaresBundle": true,
+        "installScripts": [],
+        "error": null
+      },
+      "repo": {
+        "stars": 1,
+        "pushedAt": "2026-08-18",
+        "archived": false,
+        "error": null
+      }
+    },
+    {
+      "name": "dsh-database-preview",
+      "category": "tools",
+      "status": "ok",
+      "engines": "any",
+      "published": "2026-10-16",
+      "installTarget": "dsh-database-preview@0.1.1",
+      "entry": {
+        "why": "Read-only browsing of SQLite files and MySQL, Postgres and SQL Server connections.",
+        "conflictWith": null,
+        "repository": "https://github.com/Hzlin7/dsh-database-preview",
+        "directory": null,
+        "homepage": "https://awesome-dsh-plugin.com/p/Hzlin7/dsh-database-preview/",
+        "description": "Read-only preview of SQLite files and MySQL / MariaDB / PostgreSQL / SQL Server connections in the right sidebar, with tables, paged rows, columns, indexes and…"
+      },
+      "manifest": {
+        "version": "0.1.1",
+        "license": "MIT",
+        "repository": "git+https://github.com/Hzlin7/dsh-database-preview.git",
+        "declaresBundle": true,
+        "installScripts": [],
+        "error": null
+      },
+      "repo": {
+        "stars": 0,
+        "pushedAt": "2026-10-16",
+        "archived": false,
+        "error": null
+      }
+    },
+    {
+      "name": "dsh-session-kanban",
+      "category": "ui",
+      "status": "ok",
+      "engines": ">=0.2.1-rc.3 <0.3.0-0",
+      "published": "2026-11-17",
+      "installTarget": "dsh-session-kanban@1.2.0",
+      "entry": {
+        "why": "Sidebar board showing every session's current work, todos and progress.",
+        "conflictWith": null,
+        "repository": "https://github.com/Thunderunruly/session-kanban",
+        "directory": null,
+        "homepage": "https://awesome-dsh-plugin.com/p/Thunderunruly/session-kanban/",
+        "description": "Session board in the left sidebar: every chat session's current work, todos and progress, with a searchable overview heatmap and one-click navigation back to…"
+      },
+      "manifest": {
+        "version": "1.2.0",
+        "license": "MIT",
+        "repository": "git+https://github.com/Thunderunruly/session-kanban.git",
+        "declaresBundle": true,
+        "installScripts": [],
+        "error": null
+      },
+      "repo": {
+        "stars": 1,
+        "pushedAt": "2026-11-17",
+        "archived": false,
+        "error": null
+      }
+    },
+    {
+      "name": "dsh-session-export",
+      "category": "session",
+      "status": "ok",
+      "engines": "any",
+      "published": "2026-11-16",
+      "installTarget": "dsh-session-export@1.11.0",
+      "entry": {
+        "why": "Writes styled HTML, Markdown or JSON transcripts with diffs and a turn timeline.",
+        "conflictWith": null,
+        "repository": "https://github.com/kittimzhe/dsh-session-export",
+        "directory": null,
+        "homepage": "https://awesome-dsh-plugin.com/p/kittimzhe/dsh-session-export/",
+        "description": "Evidence-grade reports beyond a plain export: /transcript writes styled HTML/Markdown/JSON with Mermaid lineage, editor diffs and a turn timeline; /stats…"
+      },
+      "manifest": {
+        "version": "1.11.0",
+        "license": "MIT",
+        "repository": "git+https://github.com/kittimzhe/dsh-session-export.git",
+        "declaresBundle": true,
+        "installScripts": [],
+        "error": null
+      },
+      "repo": {
+        "stars": 0,
+        "pushedAt": "2026-11-16",
+        "archived": false,
+        "error": null
+      }
+    },
+    {
+      "name": "dsh-notification",
+      "category": "notify",
+      "status": "ok",
+      "engines": "any",
+      "published": "2026-11-12",
+      "installTarget": "dsh-notification@0.2.0",
+      "entry": {
+        "why": "Native desktop and webhook alerts when a turn ends, errors or waits for approval.",
+        "conflictWith": null,
+        "repository": "https://github.com/nishit130/dsh-notification",
+        "directory": null,
+        "homepage": "https://awesome-dsh-plugin.com/p/nishit130/dsh-notification/",
+        "description": "Desktop and webhook alerts on macOS, Linux and Windows when an agent finishes a turn, errors, or waits for approval — zero-dependency native notifications…"
+      },
+      "manifest": {
+        "version": "0.2.0",
+        "license": "MIT",
+        "repository": "git+https://github.com/nishit130/dsh-notification.git",
+        "declaresBundle": true,
+        "installScripts": [],
+        "error": null
+      },
+      "repo": {
+        "stars": 2,
+        "pushedAt": "2026-11-12",
+        "archived": false,
+        "error": null
+      }
+    },
+    {
+      "name": "dsh-desktop-notifications",
+      "category": "notify",
+      "status": "ok",
+      "engines": "any",
+      "published": "2026-10-02",
+      "installTarget": "dsh-desktop-notifications@1.0.0",
+      "entry": {
+        "why": "Windows toast notifications that carry the conversation name.",
+        "conflictWith": null,
+        "repository": "https://github.com/FANLS05/dsh-desktop-notifications",
+        "directory": null,
+        "homepage": "https://awesome-dsh-plugin.com/p/FANLS05/dsh-desktop-notifications/",
+        "description": "Windows toast notifications for DeepSeek Harness covering approval requests, questions, run completion, errors and sign-in prompts, with the conversation name…"
+      },
+      "manifest": {
+        "version": "1.0.0",
+        "license": "MIT",
+        "repository": "git+https://github.com/FANLS05/dsh-desktop-notifications.git",
+        "declaresBundle": true,
+        "installScripts": [],
+        "error": null
+      },
+      "repo": {
+        "stars": 1,
+        "pushedAt": "2026-10-02",
+        "archived": false,
+        "error": null
+      }
+    },
+    {
+      "name": "@faith1688/dsh-usage-meter-harness",
+      "category": "usage",
+      "status": "ok",
+      "engines": "any",
+      "published": "2026-09-13",
+      "installTarget": "@faith1688/dsh-usage-meter-harness@2.0.39",
+      "entry": {
+        "why": "Balance plus a per-turn, per-session and per-model cost ledger.",
+        "conflictWith": null,
+        "repository": "https://github.com/faith1688/dsh-usage-meter-harness",
+        "directory": null,
+        "homepage": "https://awesome-dsh-plugin.com/p/faith1688/dsh-usage-meter-harness/",
+        "description": "Real-time usage, cost and balance meter for DeepSeek Harness: official-API balance, cost accuracy within ¥0.02, per-turn / per-session / per-model cost ledger,…"
+      },
+      "manifest": {
+        "version": "2.0.39",
+        "license": "MIT",
+        "repository": "git+https://github.com/faith1688/dsh-usage-meter-harness.git",
+        "declaresBundle": true,
+        "installScripts": [],
+        "error": null
+      },
+      "repo": {
+        "stars": 3,
+        "pushedAt": "2026-11-09",
+        "archived": false,
+        "error": null
+      }
+    },
+    {
+      "name": "dsh-token-ledger-pro",
+      "category": "usage",
+      "status": "ok",
+      "engines": "any",
+      "published": "2026-08-30",
+      "installTarget": "dsh-token-ledger-pro@0.2.2",
+      "entry": {
+        "why": "Prices every request against a built-in catalog of 136 models across 16 providers.",
+        "conflictWith": null,
+        "repository": "https://github.com/bjzkhy/dsh-token-ledger-pro",
+        "directory": null,
+        "homepage": "https://awesome-dsh-plugin.com/p/bjzkhy/dsh-token-ledger-pro/",
+        "description": "Cost panel for DeepSeek Harness: meters every request from session events, prices it against a built-in catalog of 136 models across 16 providers, and shows…"
+      },
+      "manifest": {
+        "version": "0.2.2",
+        "license": "MIT",
+        "repository": "git+https://github.com/bjzkhy/dsh-token-ledger-pro.git",
+        "declaresBundle": true,
+        "installScripts": [],
+        "error": null
+      },
+      "repo": {
+        "stars": 2,
+        "pushedAt": "2026-08-30",
+        "archived": false,
+        "error": null
+      }
+    },
+    {
+      "name": "@restregular/dsh-memory",
+      "category": "memory",
+      "status": "ok",
+      "engines": "any",
+      "published": "2026-11-19",
+      "installTarget": "@restregular/dsh-memory@0.41.0",
+      "entry": {
+        "why": "Local JSONL memory with per-scope dedup and five memory tools.",
+        "conflictWith": "@hr98w/dsh-memory",
+        "repository": "https://github.com/RestRegular/dsh-memory",
+        "directory": "packages/dsh-memory",
+        "homepage": "https://awesome-dsh-plugin.com/p/RestRegular/dsh-memory--packages-dsh-memory/",
+        "description": "All-in-one local memory: JSONL files per scope (session, project, global, or a custom name) with per-scope dedup, five model tools (memory_save, memory_search,…"
+      },
+      "manifest": {
+        "version": "0.41.0",
+        "license": "MIT",
+        "repository": "git+https://github.com/RestRegular/dsh-memory",
+        "declaresBundle": true,
+        "installScripts": [],
+        "error": null
+      },
+      "repo": {
+        "stars": 21,
+        "pushedAt": "2026-11-20",
+        "archived": false,
+        "error": null
+      }
+    },
+    {
+      "name": "@hr98w/dsh-memory",
+      "category": "memory",
+      "status": "ok",
+      "engines": "any",
+      "published": "2026-11-01",
+      "installTarget": "@hr98w/dsh-memory@0.1.5",
+      "entry": {
+        "why": "Leaner auto-memory and session consolidation modelled on Claude Code and Codex.",
+        "conflictWith": "@restregular/dsh-memory",
+        "repository": "https://github.com/hr98w/dsh-memory",
+        "directory": null,
+        "homepage": "https://awesome-dsh-plugin.com/p/hr98w/dsh-memory/",
+        "description": "Claude Code-inspired Auto Memory meets Codex-inspired Session consolidation, bringing simple, transparent, and context-efficient long-term memory to DeepSeek…"
+      },
+      "manifest": {
+        "version": "0.1.5",
+        "license": "MIT",
+        "repository": "git+https://github.com/hr98w/dsh-memory.git",
+        "declaresBundle": true,
+        "installScripts": [],
+        "error": null
+      },
+      "repo": {
+        "stars": 35,
+        "pushedAt": "2026-11-01",
+        "archived": false,
+        "error": null
+      }
+    },
+    {
+      "name": "dsh-git-changes",
+      "category": "git",
+      "status": "ok",
+      "engines": "any",
+      "published": "2026-11-04",
+      "installTarget": "dsh-git-changes@0.1.5",
+      "entry": {
+        "why": "Right-sidebar review panel with inline and side-by-side diffs, stage, commit, push.",
+        "conflictWith": "dsh-git-management",
+        "repository": "https://github.com/oyhdd/dsh-git-changes",
+        "directory": "packages/dsh-git-changes",
+        "homepage": "https://awesome-dsh-plugin.com/p/oyhdd/dsh-git-changes--packages-dsh-git-changes/",
+        "description": "Right-sidebar Git review panel for DSH: staged and unstaged change tree, inline and side-by-side diffs, stage/unstage/discard, commit and push, AI-generated…"
+      },
+      "manifest": {
+        "version": "0.1.5",
+        "license": "MIT",
+        "repository": "git+https://github.com/oyhdd/dsh-git-changes.git",
+        "declaresBundle": true,
+        "installScripts": [],
+        "error": null
+      },
+      "repo": {
+        "stars": 1,
+        "pushedAt": "2026-11-04",
+        "archived": false,
+        "error": null
+      }
+    },
+    {
+      "name": "dsh-git-management",
+      "category": "git",
+      "status": "ok",
+      "engines": "any",
+      "published": "2026-11-17",
+      "installTarget": "dsh-git-management@0.1.3",
+      "entry": {
+        "why": "Fuller git panel: commit graph, worktrees, branches and pull requests.",
+        "conflictWith": "dsh-git-changes",
+        "repository": "https://github.com/ET921/dsh-git-management",
+        "directory": null,
+        "homepage": "https://awesome-dsh-plugin.com/p/ET921/dsh-git-management/",
+        "description": "Git panel for the DSH right sidebar: staging, commits, branch switching, fetch/pull/push, worktrees, a Cursor-style commit graph and GitHub pull requests (the…"
+      },
+      "manifest": {
+        "version": "0.1.3",
+        "license": "MIT",
+        "repository": "git+https://github.com/ET921/dsh-git-management.git",
+        "declaresBundle": true,
+        "installScripts": [],
+        "error": null
+      },
+      "repo": {
+        "stars": 2,
+        "pushedAt": "2026-11-17",
+        "archived": false,
+        "error": null
+      }
+    },
+    {
+      "name": "dsh-git-badge",
+      "category": "git",
+      "status": "ok",
+      "engines": "any",
+      "published": "2026-11-10",
+      "installTarget": "dsh-git-badge@0.22.0",
+      "entry": {
+        "why": "Git state badges on sidebar workspace rows and a composer chip.",
+        "conflictWith": null,
+        "repository": "https://github.com/Kevin-McIsaac/dsh-workspace-git-badge",
+        "directory": "dsh-git-badge",
+        "homepage": "https://awesome-dsh-plugin.com/p/Kevin-McIsaac/dsh-workspace-git-badge--dsh-git-badge/",
+        "description": "Git status badges for DSH: sidebar workspace-row badges and an input-row chip showing the current conversation's workspace git state, with event-driven…"
+      },
+      "manifest": {
+        "version": "0.22.0",
+        "license": "MIT",
+        "repository": "git+https://github.com/Kevin-McIsaac/dsh-workspace-git-badge.git",
+        "declaresBundle": true,
+        "installScripts": [],
+        "error": null
+      },
+      "repo": {
+        "stars": 0,
+        "pushedAt": "2026-11-10",
+        "archived": false,
+        "error": null
+      }
+    },
+    {
+      "name": "@goodandready/dsh-shadow-auditor",
+      "category": "security",
+      "status": "ok",
+      "engines": "any",
+      "published": "2026-11-14",
+      "installTarget": "@goodandready/dsh-shadow-auditor@0.2.41",
+      "entry": {
+        "why": "Background scan of agent output for leaked secrets, plus command safety checks.",
+        "conflictWith": null,
+        "repository": "https://github.com/GooDAnDReaDY/dsh-shadow-auditor",
+        "directory": null,
+        "homepage": "https://awesome-dsh-plugin.com/p/GooDAnDReaDY/dsh-shadow-auditor/",
+        "description": "Background security auditor for DeepSeek Harness: scans agent outputs for secret leakage, checks command safety before execution, and surfaces findings in a…"
+      },
+      "manifest": {
+        "version": "0.2.41",
+        "license": "MIT",
+        "repository": "git+https://github.com/GooDAnDReaDY/dsh-shadow-auditor.git",
+        "declaresBundle": true,
+        "installScripts": [],
+        "error": null
+      },
+      "repo": {
+        "stars": 1,
+        "pushedAt": "2026-11-14",
+        "archived": false,
+        "error": null
+      }
+    },
+    {
+      "name": "dsh-ears",
+      "category": "voice",
+      "status": "ok",
+      "engines": ">=0.2.0-rc.1",
+      "published": "2026-11-09",
+      "installTarget": "dsh-ears@0.4.4",
+      "entry": {
+        "why": "Microphone button that turns speech into a draft, with pluggable speech engines.",
+        "conflictWith": "dsh-voice-mode",
+        "repository": "https://github.com/WizisCool/dsh-ears",
+        "directory": null,
+        "homepage": "https://awesome-dsh-plugin.com/p/WizisCool/dsh-ears/",
+        "description": "Voice input plugin for DeepSeek Harness (dsh): a microphone button in the composer turns speech into a draft transcript, with a choice of speech-recognition…"
+      },
+      "manifest": {
+        "version": "0.4.4",
+        "license": "MIT",
+        "repository": "git+https://github.com/WizisCool/dsh-ears.git",
+        "declaresBundle": true,
+        "installScripts": [],
+        "error": null
+      },
+      "repo": {
+        "stars": 31,
+        "pushedAt": "2026-11-20",
+        "archived": false,
+        "error": null
+      }
+    },
+    {
+      "name": "dsh-voice-mode",
+      "category": "voice",
+      "status": "ok",
+      "engines": ">=0.1.1-rc.2 <0.3.0-0",
+      "published": "2026-11-18",
+      "installTarget": "dsh-voice-mode@0.7.39",
+      "entry": {
+        "why": "Full-duplex voice mode and hold-to-talk dictation.",
+        "conflictWith": "dsh-ears",
+        "repository": "https://github.com/qishuilalala/dsh-voice-mode",
+        "directory": "plugin/dsh-voice-mode",
+        "homepage": "https://awesome-dsh-plugin.com/p/qishuilalala/dsh-voice-mode--plugin-dsh-voice-mode/",
+        "description": "Full-duplex voice mode for the DeepSeek Harness Web UI: toggle (2s-pause auto-send) or hold-to-talk dictation into an editable draft with zipformer2 streaming…"
+      },
+      "manifest": {
+        "version": "0.7.39",
+        "license": "MIT",
+        "repository": "git+https://github.com/qishuilalala/dsh-voice-mode.git",
+        "declaresBundle": true,
+        "installScripts": [],
+        "error": null
+      },
+      "repo": {
+        "stars": 35,
+        "pushedAt": "2026-11-21",
+        "archived": false,
+        "error": null
+      }
+    },
+    {
+      "name": "dsh-skill-hub",
+      "category": "skill",
+      "status": "ok",
+      "engines": "any",
+      "published": "2026-11-19",
+      "installTarget": "dsh-skill-hub@0.3.38",
+      "entry": {
+        "why": "Browse, search, toggle, inspect and scaffold local skills from inside the GUI.",
+        "conflictWith": null,
+        "repository": "https://github.com/cheshireez/dsh-skill-hub",
+        "directory": null,
+        "homepage": "https://awesome-dsh-plugin.com/p/cheshireez/dsh-skill-hub/",
+        "description": "In-GUI skill hub for DeepSeek Harness: browse, search, toggle, inspect, diagnose and scaffold local skills from the official ctx.skills registry, plus a skill…"
+      },
+      "manifest": {
+        "version": "0.3.38",
+        "license": "MIT",
+        "repository": "git+https://github.com/cheshireez/dsh-skill-hub.git",
+        "declaresBundle": true,
+        "installScripts": [],
+        "error": null
+      },
+      "repo": {
+        "stars": 44,
+        "pushedAt": "2026-11-19",
+        "archived": false,
+        "error": null
+      }
+    },
+    {
+      "name": "dsh-remote-mobile",
+      "category": "remote",
+      "status": "ok",
+      "engines": "any",
+      "published": "2026-11-16",
+      "installTarget": "dsh-remote-mobile@1.10.4",
+      "entry": {
+        "why": "Tailscale or LAN access with QR pairing, RSA encryption and brute-force defense.",
+        "conflictWith": null,
+        "repository": "https://github.com/IceApriler/dsh-remote-mobile",
+        "directory": null,
+        "homepage": "https://awesome-dsh-plugin.com/p/IceApriler/dsh-remote-mobile/",
+        "description": "Remote & mobile security gateway: zero-modification Tailscale/LAN access with QR pairing, RSA encryption, brute-force defense and mobile style snippets;…"
+      },
+      "manifest": {
+        "version": "1.10.4",
+        "license": "MIT",
+        "repository": "git+https://github.com/IceApriler/dsh-remote-mobile.git",
+        "declaresBundle": true,
+        "installScripts": [],
+        "error": null
+      },
+      "repo": {
+        "stars": 53,
+        "pushedAt": "2026-11-16",
+        "archived": false,
+        "error": null
+      }
+    }
+  ]
+}
