@@ -9,6 +9,7 @@
   },
   "scripts": {
     "sync": "node scripts/sync.mjs",
-    "sync:offline": "node scripts/sync.mjs --offline"
+    "sync:offline": "node scripts/sync.mjs --offline",
+    "check": "node scripts/check-readme.mjs"
   }
 }

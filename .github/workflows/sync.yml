@@ -6,6 +6,8 @@ on:
     # Weekly, Monday 05:17 UTC — refresh versions, repo health and the catalog.
     - cron: '17 5 * * 1'
   pull_request:
+  push:
+    branches: [main]
 
 permissions:
   contents: write
@@ -16,8 +18,9 @@ concurrency:
 
 jobs:
   # Scheduled and manual runs refresh the generated files and commit them.
+  # Pushes are NOT refreshed here: a person pushing already owns the commit.
   refresh:
-    if: github.event_name != 'pull_request'
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -40,24 +43,20 @@ jobs:
           git commit -m "chore: refresh catalog and verified versions"
           git push
 
-  # Pull requests must leave the repository consistent with plugins.json.
+  # Every pull request, and every hand push to main, must leave the repository
+  # consistent with plugins.json and every pick still installable.
   verify:
-    if: github.event_name == 'pull_request'
+    if: github.event_name == 'pull_request' || github.event_name == 'push'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-      - name: Sync against the live index
+      # Checked BEFORE the sync, so it inspects the files as committed.
+      - name: README matches plugins.json
+        run: node scripts/check-readme.mjs
+      - name: Every pick still resolves in the index
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node scripts/sync.mjs
-      - name: Ignore upstream churn, keep our own files honest
-        run: git checkout -- CATALOG.md data/catalog.json 2>/dev/null || true
-      - name: Fail if a pick is missing, archived, or the derived files are stale
-        run: |
-          git diff --exit-code || {
-            echo "::error::Run 'npm run sync' and commit the result."
-            exit 1
-          }
