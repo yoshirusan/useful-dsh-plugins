@@ -51,27 +51,27 @@ dsh plugin add dsh-md-studio@1.3.9
 | Plugin | What it does | Pinned | DSH engines | Health |
 | --- | --- | --- | --- | --- |
 | [`dsh-composer-expand`](https://github.com/13071301808/dsh-composer-expand) | Grows the composer into a tall 70vh writing view for long prompts. | `dsh-composer-expand@0.1.4` | any | MIT · ★ 6 · pushed 2026-10-16 |
-| [`dsh-md-studio`](https://github.com/BioAIEvolu/dsh-md-studio) | Offline Markdown preview in the right sidebar with Mermaid, KaTeX and GFM tables. | `dsh-md-studio@1.3.9` | `>=0.2.0-rc.2 <0.3.0-0` | MIT · ★ 6 · pushed 2026-11-21 |
+| [`dsh-md-studio`](https://github.com/BioAIEvolu/dsh-md-studio) | Offline Markdown preview in the right sidebar with Mermaid, KaTeX and GFM tables. | `dsh-md-studio@1.3.14` | `>=0.2.2-rc.5 <0.3.0-0` | MIT · ★ 7 · pushed 2026-11-21 |
 | [`dsh-preview-image`](https://github.com/VFVrPQ/dsh-preview-image) | Real zoom, pan, rotate and fullscreen for images, in the preview panel and lightbox. | `dsh-preview-image@0.1.1` | any | MIT · ★ 0 · pushed 2026-11-18 |
 | [`media-preview`](https://github.com/xiaokaizhou/dsh-media-preview) | Turns local audio and video paths into inline playable players in the chat. | `media-preview@0.1.3` | any | MIT · ★ 0 · pushed 2026-09-21 |
 | [`dsh-artifact-preview`](https://github.com/nirvanaslash/dsh-artifact-preview) | Adds a produced-files card row plus a resizable split preview for workspace artifacts. | `dsh-artifact-preview@0.1.2` | any | MIT · ★ 1 · pushed 2026-08-18 |
 | [`dsh-database-preview`](https://github.com/Hzlin7/dsh-database-preview) | Read-only browsing of SQLite files and MySQL, Postgres and SQL Server connections. | `dsh-database-preview@0.1.1` | any | MIT · ★ 0 · pushed 2026-10-16 |
 | [`dsh-session-kanban`](https://github.com/Thunderunruly/session-kanban) | Sidebar board showing every session's current work, todos and progress. | `dsh-session-kanban@1.2.0` | `>=0.2.1-rc.3 <0.3.0-0` | MIT · ★ 1 · pushed 2026-11-17 |
-| [`dsh-session-export`](https://github.com/kittimzhe/dsh-session-export) | Writes styled HTML, Markdown or JSON transcripts with diffs and a turn timeline. | `dsh-session-export@1.11.0` | any | MIT · ★ 0 · pushed 2026-11-16 |
+| [`dsh-session-export`](https://github.com/kittimzhe/dsh-session-export) | Writes styled HTML, Markdown or JSON transcripts with diffs and a turn timeline. | `dsh-session-export@1.11.0` | any | MIT · ★ 1 · pushed 2026-11-23 |
 | [`dsh-notification`](https://github.com/nishit130/dsh-notification) | Native desktop and webhook alerts when a turn ends, errors or waits for approval. | `dsh-notification@0.2.0` | any | MIT · ★ 2 · pushed 2026-11-12 |
 | [`dsh-desktop-notifications`](https://github.com/FANLS05/dsh-desktop-notifications) | Windows toast notifications that carry the conversation name. | `dsh-desktop-notifications@1.0.0` | any | MIT · ★ 1 · pushed 2026-10-02 |
 | [`@faith1688/dsh-usage-meter-harness`](https://github.com/faith1688/dsh-usage-meter-harness) | Balance plus a per-turn, per-session and per-model cost ledger. | `@faith1688/dsh-usage-meter-harness@2.0.39` | any | MIT · ★ 3 · pushed 2026-11-09 |
 | [`dsh-token-ledger-pro`](https://github.com/bjzkhy/dsh-token-ledger-pro) | Prices every request against a built-in catalog of 136 models across 16 providers. | `dsh-token-ledger-pro@0.2.2` | any | MIT · ★ 2 · pushed 2026-08-30 |
-| [`@restregular/dsh-memory`](https://github.com/RestRegular/dsh-memory) | Local JSONL memory with per-scope dedup and five memory tools. | `@restregular/dsh-memory@0.41.0` | any | MIT · ★ 21 · pushed 2026-11-20 |
+| [`@restregular/dsh-memory`](https://github.com/RestRegular/dsh-memory) | Local JSONL memory with per-scope dedup and five memory tools. | `@restregular/dsh-memory@0.45.0` | any | MIT · ★ 21 · pushed 2026-11-22 |
 | [`@hr98w/dsh-memory`](https://github.com/hr98w/dsh-memory) | Leaner auto-memory and session consolidation modelled on Claude Code and Codex. | `@hr98w/dsh-memory@0.1.5` | any | MIT · ★ 35 · pushed 2026-11-01 |
 | [`dsh-git-changes`](https://github.com/oyhdd/dsh-git-changes) | Right-sidebar review panel with inline and side-by-side diffs, stage, commit, push. | `dsh-git-changes@0.1.5` | any | MIT · ★ 1 · pushed 2026-11-04 |
 | [`dsh-git-management`](https://github.com/ET921/dsh-git-management) | Fuller git panel: commit graph, worktrees, branches and pull requests. | `dsh-git-management@0.1.3` | any | MIT · ★ 2 · pushed 2026-11-17 |
-| [`dsh-git-badge`](https://github.com/Kevin-McIsaac/dsh-workspace-git-badge) | Git state badges on sidebar workspace rows and a composer chip. | `dsh-git-badge@0.22.0` | any | MIT · ★ 0 · pushed 2026-11-10 |
+| [`dsh-git-badge`](https://github.com/Kevin-McIsaac/dsh-workspace-git-badge) | Git state badges on sidebar workspace rows and a composer chip. | `dsh-git-badge@0.22.0` | any | MIT · ★ 0 · pushed 2026-11-23 |
 | [`@goodandready/dsh-shadow-auditor`](https://github.com/GooDAnDReaDY/dsh-shadow-auditor) | Background scan of agent output for leaked secrets, plus command safety checks. | `@goodandready/dsh-shadow-auditor@0.2.41` | any | MIT · ★ 1 · pushed 2026-11-14 |
-| [`dsh-ears`](https://github.com/WizisCool/dsh-ears) | Microphone button that turns speech into a draft, with pluggable speech engines. | `dsh-ears@0.4.4` | `>=0.2.0-rc.1` | MIT · ★ 31 · pushed 2026-11-20 |
-| [`dsh-voice-mode`](https://github.com/qishuilalala/dsh-voice-mode) | Full-duplex voice mode and hold-to-talk dictation. | `dsh-voice-mode@0.7.39` | `>=0.1.1-rc.2 <0.3.0-0` | MIT · ★ 35 · pushed 2026-11-21 |
+| [`dsh-ears`](https://github.com/WizisCool/dsh-ears) | Microphone button that turns speech into a draft, with pluggable speech engines. | `dsh-ears@0.4.4` | `>=0.2.0-rc.1` | MIT · ★ 30 · pushed 2026-11-20 |
+| [`dsh-voice-mode`](https://github.com/qishuilalala/dsh-voice-mode) | Full-duplex voice mode and hold-to-talk dictation. | `dsh-voice-mode@0.7.44` | `>=0.1.1-rc.2 <0.3.0-0` | MIT · ★ 35 · pushed 2026-11-23 |
 | [`dsh-skill-hub`](https://github.com/cheshireez/dsh-skill-hub) | Browse, search, toggle, inspect and scaffold local skills from inside the GUI. | `dsh-skill-hub@0.3.38` | any | MIT · ★ 44 · pushed 2026-11-19 |
-| [`dsh-remote-mobile`](https://github.com/IceApriler/dsh-remote-mobile) | Tailscale or LAN access with QR pairing, RSA encryption and brute-force defense. | `dsh-remote-mobile@1.10.4` | any | MIT · ★ 53 · pushed 2026-11-16 |
+| [`dsh-remote-mobile`](https://github.com/IceApriler/dsh-remote-mobile) | Tailscale or LAN access with QR pairing, RSA encryption and brute-force defense. | `dsh-remote-mobile@1.10.5` | any | MIT · ★ 53 · pushed 2026-11-23 |
 
 **Install one of each pair, not both:**
 - `@hr98w/dsh-memory` ↔ `@restregular/dsh-memory`
